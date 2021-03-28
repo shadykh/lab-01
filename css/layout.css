@@ -1,0 +1,36 @@
+header {
+    height: 75px;
+    width: 100%;
+}
+
+footer {
+    height: 80px;
+    width: 100%; 
+}
+
+.bBox {
+    height: 150px;
+    width: 100%;
+}
+
+.cBox, .dBox {
+    height: 125px;
+    width: 100%;
+} 
+
+.eAndFBox, .gAndHBox {
+    height: 250px;
+    width: 100%;
+}
+
+.eBox, .gBox {
+    float: left;
+    height: 250px;
+    width: 50%;
+}
+
+.fBox, .hBox {
+    float: right;
+    height: 250px;
+    width: 50%;
+}
