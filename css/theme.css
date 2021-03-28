@@ -30,3 +30,42 @@
 .iBox {
 	background-color: rgb(118, 122, 126);
 }
+
+
+@media(max-width: 960px) and (min-width: 786px) {
+
+	.aBox {
+		background-color: rgb(61, 255, 190);
+	}
+	
+	.bBox {
+		background-color: rgb(50, 214, 159);
+	}
+	
+	.cBox{
+		background-color: rgb(32, 165, 120);
+	} 
+	.dBox {
+		background-color: rgb(15, 170, 118);
+	} 
+	
+	.eBox{
+		background-color: rgb(9, 87, 61);
+	}
+	.gBox {
+		background-color: rgb(9, 75, 53);
+	}
+	
+	.fBox {
+		background-color: rgb(21, 87, 65);
+	}
+	.hBox {
+		background-color: rgb(21, 70, 53);
+	}
+	
+	.iBox {
+		background-color: rgb(6, 56, 39);
+	}
+
+
+}
