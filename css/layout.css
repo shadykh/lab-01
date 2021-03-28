@@ -1,9 +1,9 @@
-header {
+header, .aBox {
     height: 75px;
     width: 100%;
 }
 
-footer {
+footer, .iBox {
     height: 80px;
     width: 100%; 
 }
@@ -34,3 +34,72 @@ footer {
     height: 250px;
     width: 50%;
 }
+
+
+@media(max-width: 960px) and (min-width: 786px) {
+
+    header, .aBox {
+        height: 100px;
+        width: 100%;
+    }
+    
+    footer, .iBox {
+        height: 150px;
+        width: 760px; 
+        float: right;
+        margin: -75px 0;
+    }
+    
+    .bBox {
+        float: left;
+        height: 600px;
+        width: 200px;
+    }
+    
+    .cBox {
+        float: left;
+        height: 200px;
+        width: 380px;
+    } 
+    
+    .dBox {
+        float: right;
+        height: 200px;
+        width: 380px;
+    } 
+    /*
+    .eBox, .gBox {
+        float: left;
+        height: 250px;
+        width: 190px;
+    }
+    
+    .fBox, .hBox {
+        float: right;
+        height: 250px;
+        width: 190px;
+    }*/
+    .gAndHBox {
+        width: 380px;
+        float: right;
+        clear: both;
+        margin: -400 0;
+    }
+    .eAndFBox {
+        width: 380px;
+        float: right;
+        clear: both;
+        margin: -400px 380px;
+    }
+
+    .eBox, .gBox {
+        height: 250px;
+        width: 190px;
+    }
+    
+    .fBox, .hBox {
+        height: 250px;
+        width: 190px;
+    }
+  }
+  
