@@ -54,7 +54,7 @@ footer p {
 }
 
 
-@media(max-width: 960px) and (min-width: 786px) {
+@media (min-width: 768px) and (max-width: 960px)  {
 
     
     .cBox p {
@@ -82,5 +82,31 @@ footer p {
     }
     }
 
+    
+@media (min-width: 960px)  {
 
-}
+    
+    .cBox p {
+        text-align: center;
+        position: relative;
+        top: 30%;
+    }
+
+    .dBox p {
+        text-align: center;
+        position: relative;
+        top: 30%;
+    }
+
+    .bBox p  {
+        text-align: center;
+        position: relative;
+        top: 46%;
+    }
+
+    footer p {
+        text-align: center;
+        position: relative;
+        top: 22%;
+    }
+    }
