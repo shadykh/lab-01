@@ -3,9 +3,13 @@ header, .aBox {
     width: 100%;
 }
 
-footer, .iBox {
+footer {
     height: 80px;
     width: 100%; 
+}
+
+.ibox {
+    height: 100%;
 }
 
 .bBox {
@@ -36,36 +40,39 @@ footer, .iBox {
 }
 
 
-@media(max-width: 960px) and (min-width: 786px) {
+@media (min-width: 768px)  and (max-width: 960px)  {
 
     header, .aBox {
         height: 100px;
         width: 100%;
     }
     
-    footer, .iBox {
+    footer {
         height: 150px;
-        width: 760px; 
+        width: 79%;
         float: right;
-        margin: -75px 0;
+    }
+
+    .ibox {
+        height: 100%;
     }
     
     .bBox {
         float: left;
         height: 600px;
-        width: 200px;
+        width: 21%;
     }
     
     .cBox {
         float: left;
         height: 200px;
-        width: 380px;
+        width: calc(79% / 2);
     } 
     
     .dBox {
         float: right;
         height: 200px;
-        width: 380px;
+        width: calc(79% / 2);
     } 
     /*
     .eBox, .gBox {
@@ -82,24 +89,92 @@ footer, .iBox {
     .gAndHBox {
         width: 380px;
         float: right;
-        clear: both;
-        margin: -400 0;
+        width: calc(79% / 2);
     }
     .eAndFBox {
         width: 380px;
         float: right;
-        clear: both;
-        margin: -400px 380px;
+        width: calc(79% / 2);
     }
 
     .eBox, .gBox {
+        height: 250px;
+        width: 50%;
+    }
+    
+    .fBox, .hBox {
+        height: 250px;
+        width: 50%;
+    }
+  }
+  
+
+  @media (min-width: 960px) {
+
+
+    header, .aBox {
+        height: 100px;
+        width: 100%;
+    }
+    
+    footer {
+        height: 150px;
+        width: 79%;
+        float: right;
+    }
+
+    .ibox {
+        height: 100%;
+    }
+    
+    .bBox {
+        float: left;
+        height: 600px;
+        width: 21%;
+    }
+    
+    .cBox {
+        float: left;
+        height: 200px;
+        width: calc(79% / 2);
+    } 
+    
+    .dBox {
+        float: right;
+        height: 200px;
+        width: calc(79% / 2);
+    } 
+    /*
+    .eBox, .gBox {
+        float: left;
         height: 250px;
         width: 190px;
     }
     
     .fBox, .hBox {
+        float: right;
         height: 250px;
         width: 190px;
+    }*/
+    .gAndHBox {
+        width: 380px;
+        float: right;
+        width: calc(79% / 2);
     }
+    .eAndFBox {
+        width: 380px;
+        float: right;
+        width: calc(79% / 2);
+    }
+
+    .eBox, .gBox {
+        height: 250px;
+        width: 50%;
+    }
+    
+    .fBox, .hBox {
+        height: 250px;
+        width: 50%;
+    }
+
   }
-  
